@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Pharmecy Mgt." Class="PharmecyMgtDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PAUL-PC\SQLEXPRESS;Initial Catalog=&quot;Pharmecy Mgt.&quot;;Integrated Security=True" SettingsObjectName="PharmecyMgt.Properties.Settings" SettingsPropertyName="Pharmecy_Mgt_ConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_current_drugs" Member="tbl_current_drugs">
+    <Type Name="tbl_current_drug">
+      <Column Name="drug_sn" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="product_sn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="quantity" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_product_tbl_current_drug" Member="tbl_product" ThisKey="product_sn" Type="tbl_product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_login" Member="tbl_logins">
+    <Type Name="tbl_login">
+      <Column Name="login_sn" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Id" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_order" Member="tbl_orders">
+    <Type Name="tbl_order">
+      <Column Name="order_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="product_sn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="unq_orderid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="quantity" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="bonus_product" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="payment_type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="paid_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="due_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="ordered_to" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="contact_no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_status" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="date_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_product_tbl_order" Member="tbl_product" ThisKey="product_sn" Type="tbl_product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_product" Member="tbl_products">
+    <Type Name="tbl_product">
+      <Column Name="product_sn" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="product_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="product_group" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="quantity_per_box" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="company_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="price_per_box" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="comission_rate_percentege" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_product_tbl_current_drug" Member="tbl_current_drugs" OtherKey="product_sn" Type="tbl_current_drug" />
+      <Association Name="tbl_product_tbl_order" Member="tbl_orders" OtherKey="product_sn" Type="tbl_order" />
+      <Association Name="tbl_product_tbl_return" Member="tbl_returns" OtherKey="product_sn" Type="tbl_return" />
+      <Association Name="tbl_product_tbl_sell" Member="tbl_sells" OtherKey="product_sn" Type="tbl_sell" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_return" Member="tbl_returns">
+    <Type Name="tbl_return">
+      <Column Name="return_sn" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="product_sn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="product_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="quantity" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="cutback_rate" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="date_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_product_tbl_return" Member="tbl_product" ThisKey="product_sn" Type="tbl_product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_sell" Member="tbl_sells">
+    <Type Name="tbl_sell">
+      <Column Name="sell_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="product_sn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="quantity" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="payment_mode" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="due_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="paid_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="customer_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="contact_no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_product_tbl_sell" Member="tbl_product" ThisKey="product_sn" Type="tbl_product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_staffinfo" Member="tbl_staffinfos">
+    <Type Name="tbl_staffinfo">
+      <Column Name="sid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="age" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="gender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="address" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="joindate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="qualification" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="salary" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_withdrawl" Member="tbl_withdrawls">
+    <Type Name="tbl_withdrawl">
+      <Column Name="withdraw_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="withdrawer_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="withdraw_type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_order_product" Member="View_order_products">
+    <Type Name="View_order_product">
+      <Column Name="Expr1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Expr2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="product_sn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="product_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="unq_orderid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="quantity" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="bonus_product" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="payment_type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="paid_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="due_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="ordered_to" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="contact_no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_status" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="date_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.view_sell" Member="view_sells">
+    <Type Name="view_sell">
+      <Column Name="sell_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="product_sn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="quantity" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="payment_mode" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="due_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="paid_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="customer_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="contact_no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Expr1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="product_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="product_group" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="quantity_per_box" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="company_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="price_per_box" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="comission_rate_percentege" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

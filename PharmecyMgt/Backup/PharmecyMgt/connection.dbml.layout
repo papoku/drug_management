@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.625, 13.75" name="PharmecyMgt">
+  <DataContextMoniker Name="/PharmecyMgtDataContext" />
+  <nestedChildShapes>
+    <classShape Id="78a63236-f761-4671-90f9-6b08c59ef28a" absoluteBounds="3.5, 1.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_current_drug" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88a56d81-11b1-4ba5-ae50-1bdd455db7ac" absoluteBounds="3.515, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="619320a7-975b-4f6e-81df-bdd5ecca69b5" absoluteBounds="6.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d222dcb7-f7de-4084-a2d4-ff8f63a8f36d" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7bb50cb-adf9-4b04-bc53-96b693305d1b" absoluteBounds="3.5, 10, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdba4767-3fd8-45c3-867b-4f66b3a674d7" absoluteBounds="3.515, 10.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="40d97cef-82e3-4823-8bed-2586d73101b7" absoluteBounds="0.75, 6.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8209112d-ae3f-4073-87e4-15aae9027c7b" absoluteBounds="0.765, 6.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="db970b1e-10c0-49e4-b001-fe57bdb6496a" absoluteBounds="3.5, 3.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_return" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0aa35bd0-b7fe-4470-a1a6-47a55d80d84a" absoluteBounds="3.515, 4.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc1c29a0-2a8a-4b0e-85a6-6ef0b0dfec04" absoluteBounds="3.5, 6.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_sell" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f8ab8a7-06e2-48b7-b795-d5c76fb0b88d" absoluteBounds="3.515, 6.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc951d94-1023-4af6-ae11-2a8a0a681ffd" absoluteBounds="6.75, 3.75, 2, 2.347801106770834">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_staffinfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c47b0f95-e01c-4646-bdf3-7ad1aebceda6" absoluteBounds="6.765, 4.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="16bcba98-558b-45e9-9d89-a1c1bae8dd2b" absoluteBounds="6.75, 7.75, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/tbl_withdrawl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c00b71e0-3b24-46c1-b9bc-b87e6474264b" absoluteBounds="6.765, 8.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 6.375); (1.75 : 2.06814697265625); (3.5 : 2.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PharmecyMgtDataContext/tbl_product/tbl_product_tbl_current_drug" />
+      <nodes>
+        <classShapeMoniker Id="40d97cef-82e3-4823-8bed-2586d73101b7" />
+        <classShapeMoniker Id="78a63236-f761-4671-90f9-6b08c59ef28a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 8.53049967447917); (1.75 : 11.7508048502604); (3.5 : 11.7508048502604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PharmecyMgtDataContext/tbl_product/tbl_product_tbl_order" />
+      <nodes>
+        <classShapeMoniker Id="40d97cef-82e3-4823-8bed-2586d73101b7" />
+        <classShapeMoniker Id="d7bb50cb-adf9-4b04-bc53-96b693305d1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 6.375); (2.2812525 : 4.70274983723958); (3.5 : 4.70274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PharmecyMgtDataContext/tbl_product/tbl_product_tbl_return" />
+      <nodes>
+        <classShapeMoniker Id="40d97cef-82e3-4823-8bed-2586d73101b7" />
+        <classShapeMoniker Id="db970b1e-10c0-49e4-b001-fe57bdb6496a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.51524983723958); (3.5 : 7.51524983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PharmecyMgtDataContext/tbl_product/tbl_product_tbl_sell" />
+      <nodes>
+        <classShapeMoniker Id="40d97cef-82e3-4823-8bed-2586d73101b7" />
+        <classShapeMoniker Id="fc1c29a0-2a8a-4b0e-85a6-6ef0b0dfec04" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fd625d07-d47b-480b-a94d-e935ee882825" absoluteBounds="9.375, 0.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/View_order_product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3442391-5aff-4b9f-a220-cc7dd60c6ab0" absoluteBounds="9.39, 1.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54d2234a-3140-4802-a4aa-41ed7294dfc8" absoluteBounds="9.375, 5.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/PharmecyMgtDataContext/view_sell" />
+      <nestedChildShapes>
+        <elementListCompartment Id="149a25e0-ae3d-4a97-921f-dfd70dca6643" absoluteBounds="9.39, 6.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

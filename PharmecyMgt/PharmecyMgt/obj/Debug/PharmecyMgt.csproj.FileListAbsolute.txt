@@ -1,0 +1,88 @@
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe.config
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.pdb
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmlogin.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmadmin.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Properties.Resources.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.csproj.GenerateResource.Cache
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.exe
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.pdb
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmProduct.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmorder.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmsell.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmstuff.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmReturn.resources
+C:\Users\Paul\Documents\Visual Studio 2008\Projects\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmWeb.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe.config
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.exe
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.pdb
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\ResolveAssemblyReference.cache
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmlogin.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmadmin.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmorder.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmProduct.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmReturn.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmsell.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmWeb.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmstuff.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Properties.Resources.resources
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.csproj.GenerateResource.Cache
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe
+D:\Study Tools\C#\project\project\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.pdb
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe.config
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.exe
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.pdb
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.pdb
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmlogin.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmadmin.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmorder.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmProduct.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmReturn.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmsell.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmWeb.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmstuff.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Properties.Resources.resources
+C:\Users\Paul\Desktop\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.csproj.GenerateResource.Cache
+F:\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe.config
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.exe
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.pdb
+F:\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe
+F:\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.pdb
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\ResolveAssemblyReference.cache
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmlogin.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmadmin.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmorder.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmProduct.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmReturn.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmsell.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmWeb.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Properties.Resources.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.csproj.GenerateResource.Cache
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmStaff.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmReport.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frm_report_viewer.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Report.Crp_current_stock.resources
+F:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frm_withdrawal.resources
+E:\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe.config
+E:\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.exe
+E:\PharmecyMgt\PharmecyMgt\bin\Debug\PharmecyMgt.pdb
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\ResolveAssemblyReference.cache
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frm_withdrawal.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Report.Crp_current_stock.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmlogin.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmadmin.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmorder.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmProduct.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmReturn.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frmsell.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmWeb.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmStaff.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.FrmReport.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Frm_report_viewer.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.Properties.Resources.resources
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.csproj.GenerateResource.Cache
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.exe
+E:\PharmecyMgt\PharmecyMgt\obj\Debug\PharmecyMgt.pdb
