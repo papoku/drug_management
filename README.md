@@ -20,4 +20,7 @@ Basically main feature includes:
 
 **Screenshots:**
 
-
+**Login and Admin panel:**
+![Login_page](https://github.com/papoku/drug_management/tree/master/screenshots/Login.jpg)
+#
+![Admin_panel_Page](https://github.com/papoku/drug_management/tree/master/screenshots/admin_panel.jpg)
