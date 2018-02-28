@@ -18,14 +18,15 @@ Basically main feature includes:
 7. Report generation with Crystal Report for all operations
 8. Database backup
 
-**Screenshots:**
+# Screenshots
 
 * **Login and Admin panel:**
-![Login_page](https://github.com/papoku/drug_management/blob/master/screenshots/Login.jpg)
 
+![Login page](https://github.com/papoku/drug_management/blob/master/screenshots/Login.jpg)
 ![Admin panel Page](https://github.com/papoku/drug_management/blob/master/screenshots/admin_panel.jpg)
 
 * **DBML:**
+
 ![DBML](https://github.com/papoku/drug_management/blob/master/screenshots/DBML.jpg)
 
 * **Product Sell and Return:**
